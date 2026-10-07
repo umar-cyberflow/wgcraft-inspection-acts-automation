@@ -1,0 +1,22 @@
+{
+  "login_input": "//input[@formcontrolname='username']",
+  "password_input": "//input[@formcontrolname='password'] | //input[@type='password']",
+  "login_button": "//button[normalize-space(.)='Вход'] | //input[@value='Вход']",
+  "lang_ru": "//*[(self::button or self::a or self::span or self::div) and normalize-space(.)='ru' and not(*[normalize-space(.)='ru'])]",
+  "menu_acts": "//*[contains(translate(normalize-space(.),' ',' '),'Акты обхода') and not(contains(.,'новые')) and not(contains(.,'работе')) and not(*[contains(translate(normalize-space(.),' ',' '),'Акты обхода')])]",
+  "menu_new_acts": "//*[contains(translate(normalize-space(.),' ',' '),'Акты обхода') and contains(.,'новые') and not(*[contains(.,'новые')])]",
+  "clear_button": "//button[normalize-space(.)='Очистить'] | //input[@value='Очистить']",
+  "date_checkbox": "//*[normalize-space(.)='Дата заведения' and not(*[normalize-space(.)='Дата заведения'])]/preceding::input[@type='checkbox'][1]",
+  "act_checkbox": "//*[normalize-space(.)='№ акта' and not(*[normalize-space(.)='№ акта'])]/preceding::input[@type='checkbox'][1]",
+  "act_input": "//*[normalize-space(.)='№ акта' and not(*[normalize-space(.)='№ акта'])]/following::input[not(@type='checkbox') and not(@type='hidden')][1]",
+  "apply_button": "//button[normalize-space(.)='Применить'] | //input[@value='Применить']",
+  "result_row": "//tr[td[normalize-space(.)='{act}']]",
+  "row_menu": "//tr[td[normalize-space(.)='{act}']]/td[last()]",
+  "accept_option": "//*[contains(normalize-space(.),'Принять для обработки') and not(*[contains(normalize-space(.),'Принять для обработки')])]",
+  "yes_button": "//button[normalize-space(.)='Да']",
+  "gps_cell": "//td[normalize-space(.)='GPS']",
+  "gps_done": "//tr[td[normalize-space(.)='GPS']]/td[normalize-space(.)='Изменения внесены']",
+  "edit_option": "//*[normalize-space(.)='Редактировать' and not(*[normalize-space(.)='Редактировать'])]",
+  "note_textarea": "//*[normalize-space(.)='Примечание' and not(*[normalize-space(.)='Примечание'])]/following::textarea[1]",
+  "act_dialog_close": "//*[normalize-space(.)='Акт обхода' and not(*[normalize-space(.)='Акт обхода'])]/following::*[contains(@class,'close') or normalize-space(.)='×'][1]"
+}
