@@ -1,0 +1,23 @@
+{
+  "browser": "chrome",
+
+  "excel_file": "demo_acts.xlsx",
+  "sheet": 0,
+  "act_column": "Номер",
+  "start_row": 2,
+  "end_row": null,
+  "limit": null,
+
+  "note_text": "  ",
+
+  "step_by_step": false,
+
+  "timeouts": {
+    "page": 40,
+    "element": 20,
+    "after_click": 1.5
+  },
+
+  "log_dir": "logs",
+  "results_file": "results.csv"
+}

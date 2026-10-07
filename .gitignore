@@ -1,0 +1,9 @@
+.env
+logs/
+__pycache__/
+*.pyc
+*.xls
+*.xlsx
+!demo_acts.xlsx
+.venv/
+venv/
