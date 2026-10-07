@@ -1,6 +1,0 @@
-.env
-progress.csv
-errors/
-*.xlsx
-!accounts_demo.xlsx
-__pycache__/
